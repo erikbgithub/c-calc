@@ -18,5 +18,10 @@ int main( int argc, char ** argv )
     }
 
     char *s = argv[1];
+    register int t;
+    for(t=0; s[t]; ++t)
+    {
+        printf("c:%c;\n",s[t]);
+    }
     printf("expression: %s\n",s);
 }
