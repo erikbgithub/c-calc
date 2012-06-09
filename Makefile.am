@@ -1,2 +1,2 @@
-bin_PROGRAMS = main
-main_SOURCES = main.c
+bin_PROGRAMS = c-calc
+c_calc_SOURCES = c-calc.c

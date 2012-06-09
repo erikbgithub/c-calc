@@ -3,7 +3,7 @@
 
 AC_PREREQ([2.68])
 AC_INIT([c-calc], [0.1], [erik.bernoth@googlemail.com])
-AC_CONFIG_SRCDIR([main.c])
+AC_CONFIG_SRCDIR([c-calc.c])
 AM_INIT_AUTOMAKE
 AC_CONFIG_HEADERS([config.h])
 
